@@ -1,0 +1,23 @@
+@media (max-width: 650px) {
+    main {
+        height: fit-content;
+        padding: 1rem;
+    }
+    
+    .form_content .form_item:nth-child(1) {
+        flex-direction: column;
+    }
+
+    .form_content .query_options {
+        flex-direction: column;
+    }
+
+    textarea {
+        height: 20rem;
+    }
+
+    .success_message {
+        width: 90%;
+    }
+}
+
