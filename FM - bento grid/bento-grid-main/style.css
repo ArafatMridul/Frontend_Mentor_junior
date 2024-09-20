@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+:root {
+    --clr-Purple-100: hsl(254, 88%, 90%);
+    --clr-Purple-500: hsl(256, 67%, 59%);
+
+    --clr-Yellow-100: hsl(31, 66%, 93%);
+    --clr-Yellow-500: hsl(39, 100%, 71%);
+
+    --clr-White: hsl(0, 0%, 100%);
+    --clr-Black: hsl(0, 0%, 7%);
+
+    --ff-dm-sans : "DM Sans", sans-serif;
+
+    --fw-normal: 400;
+    --fw-bold: 600; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+/* BASIC STYLING */
+h1, p, h2 {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* MAIN STYLING */
+main {
+    display: grid;
+    gap: 2rem;
+    padding: 1.5rem;
+    font-family: var(--ff-dm-sans);
+    background-color: rgba(176, 173, 173, 0.12);
+}
+
+/* SOCIAL MEDIA CARD */
+
+.card-social-media {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1.35rem;
+    line-height: 0.9;
+    background-color: var(--clr-Purple-500);
+    padding: 2rem;
+    color: var(--clr-White);
+    border-radius: 0.5rem;
+}
+
+.card-social-media h1 {
+    font-weight: var(--fw-normal);
+}
+
+.tenx {
+    color: var(--clr-Yellow-500);
+}
+
+.card-social-media img {
+    width: 70%;
+    margin-inline: auto;
+}
+
+.card-social-media p {
+    font-size: 1.1rem;
+}
+
+/* MULTIPLE PLATFORM CARD */
+
+.card-multiple-platform {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: var(--clr-White);
+    border-radius: 0.5rem;
+}
+
+.card-multiple-platform h2 {
+    font-size: 1.55rem;
+    text-align: start;
+    color: var(--clr-Black);
+    font-weight: var(--fw-bold);
+    line-height: 0.9;
+    letter-spacing: -1.5px;
+}
+
+/* CONSISTENT POSTING SCHEDULE CARD */
+
+.card-posting-schedule {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--clr-Yellow-500);
+    overflow: hidden;
+}
+
+.card-posting-schedule h2 {
+    text-align: start;
+    font-size: 1.75rem;
+    color: var(--clr-Black);
+    font-weight: var(--fw-bold);
+    line-height: 0.9;
+    letter-spacing: -1.5px;
+}
+
+.consistent-img {
+    padding: 4.4rem;
+    position: relative;
+}
+
+.card-posting-schedule img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+}
+
+/* SCHEDULE SOCIAL MEDIA */
+
+.card-schedule-media {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--clr-Purple-100);
+}
+
+.card-schedule-media h2 {
+    font-size: 1.5rem;
+    color: var(--clr-Black);
+    font-weight: var(--fw-bold);
+    line-height: 0.9;
+    letter-spacing: -1.5px;
+}
+
+.card-schedule-media p {
+    font-size: 1.25rem;
+    font-weight: var(--fw-bold);
+    color: var(--clr-Black);
+    letter-spacing: -1px;
+}
+
+/* GROW FOLLOWERS CARD */
+
+.card-grow-followers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--clr-Purple-500);
+}
+
+.card-grow-followers img {
+    width: 70%;
+}
+
+.card-grow-followers h2 {
+    width: 80%;
+    font-size: 2rem;
+    font-weight: var(--fw-bold);
+    letter-spacing: -1.5px;
+    line-height: 0.9;
+    color: var(--clr-White);
+}
+
+/* AUDIENCE GROWTH CARD */
+
+.card-audience-growth {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--clr-White);
+}
+
+.card-audience-growth h1 {
+    text-align: start;
+    font-size: 3rem;
+    font-weight: var(--fw-bold);
+    line-height: 0.9;
+}
+
+.card-audience-growth p {
+    font-size: 1.1rem;
+    text-align: start;
+    font-weight: var(--fw-bold);
+}
+
+.card-audience-growth img {
+    width: 60%;
+}
+
+/* CREATE AND SCHEDULE CARD */
+
+.card-create-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--clr-Yellow-100);
+}
+
+.card-create-content h2 {
+    text-align: start;
+    font-size: 2rem;
+    font-weight: var(--fw-bold);
+    color: var(--clr-Black);
+    letter-spacing: -1.5px;
+    line-height: 0.9;
+}
+
+.card-create-content h2 span {
+    color: var(--clr-Purple-500);
+    font-style: italic;
+}
+
+.card-create-content img {
+    width: 70%;
+}
+
+/* AI CONTENT WRITING CARD */
+
+.card-content-writing {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--clr-Yellow-500);
+}
+
+.card-content-writing h1 {
+    text-align: start;
+    font-size: 2.25rem;
+    font-weight: var(--fw-bold);
+    letter-spacing: -1.5px;
+    line-height: 0.9;
+}
+
+.card-content-writing img {
+    width: 80%;
+}
+

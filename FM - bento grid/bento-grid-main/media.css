@@ -1,0 +1,220 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+    main {
+        padding: 4rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* SOCIAL MEDIA CARD */
+    .card-social-media {
+        grid-row: 1 / 2;
+        grid-column: 1 / 3;
+    }
+
+    .card-social-media h1 {
+        font-size: 5rem;
+    }
+
+    /* MULTIPLE PLATFORM CARD */
+    .card-multiple-platform h2 {
+        font-size: 2.25rem;
+    }
+
+    /* CONSISTENT POSTING SCHEDULE CARD */
+    .card-posting-schedule h2 {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .card-posting-schedule img {
+        width: 100%;
+    }
+
+    /* GROW FOLLOWERS CARD */
+    .card-grow-followers {
+        grid-row: 3 / 4;
+        grid-column: 1 / 3;
+    }
+
+    .card-grow-followers img {
+        width: 50%;
+    }
+
+    /* AI CONTENT WRITING CARD */
+    .card-content-writing {
+        grid-row: 4 / 5;
+        grid-column: 2 / 3;
+    }
+
+    .card-content-writing h1 {
+        text-align: center;
+    }
+
+    .card-content-writing img {
+        align-self: center;
+    }
+}
+
+
+@media (width >= 1024px) {
+    main {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 0.5fr 0.25fr 0.5fr;
+    }
+
+    /* SOCIAL MEDIA CARD */
+    .card-social-media {
+        gap: 2rem;
+        padding-block: 4rem;
+        grid-row: 1 / 2;
+        grid-column: 2 / 4;
+    }
+
+    .card-social-media h1 {
+        font-size: 4rem;
+        line-height: 1;
+    }
+
+    .card-social-media img {
+        width: 40%;
+    }
+
+    .card-social-media p {
+        font-size: 1.25rem;
+        margin-top: -1.5rem;
+    }
+
+    /* MULTIPLE PLATFORM CARD */
+    .card-multiple-platform {
+        grid-row: 2 / 3;
+        grid-column: 2 / 3;
+    }
+
+    .card-multiple-platform h2 {
+        font-size: 1.75rem;
+    }
+
+    /* CONSISTENT POSTING SCHEDULE CARD */
+    .card-posting-schedule {
+        padding: 1.5rem;
+        gap: 0.5rem;
+        grid-row: 2 / 3;
+        grid-column: 3 / 4;
+    }
+
+    .card-posting-schedule h2 {
+        font-size: 1.5rem;
+    }
+
+    .card-posting-schedule img {
+        width: 100%;
+    }
+
+    /* SCHEDULE SOCIAL MEDIA */
+    .card-schedule-media {
+        padding: 1.5rem;
+        grid-row: 1 / 3;
+        grid-column: 4 / 5;
+        overflow: hidden;
+    }
+
+    .card-schedule-media h2 {
+        text-align: start;
+        font-size: 2.5rem;
+    }
+
+    .card-schedule-media p {
+        text-align: start;
+    }
+    
+    /* GROW FOLLOWERS CARD */
+    .card-grow-followers {
+        flex-direction: row;
+        gap: 0;
+        padding: 1.5rem;
+        grid-row: 3 / 4;
+        grid-column: -3 / -1;
+    }
+
+    .card-grow-followers img {
+        width: 45%;
+    }
+
+    .card-grow-followers h2 {
+        text-align: start;
+        font-size: 2.25rem;
+    }
+
+    /* AUDIENCE GROWTH CARD */
+    .card-audience-growth {
+        gap: 1.5rem;
+        grid-row: 3 / 4;
+        grid-column: -4 / -3;
+    }
+
+    .card-audience-growth h1 {
+        font-size: 4rem;
+    }
+
+    .card-audience-growth p {
+        font-size: 1rem;
+        letter-spacing: -1px;
+    }
+
+    .card-audience-growth img {
+        margin-top: auto;
+        width: 90%;
+    }
+
+    /* CREATE AND SCHEDULE CARD */
+    .card-create-content {
+        padding: 2.5rem;
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+    }
+
+    .card-create-content h2 {
+        font-size: 2.5rem;
+    }
+
+    .card-create-content img {
+        width: 90%;
+    }
+
+    /* AI CONTENT WRITING CARD */
+    .card-content-writing {
+        padding: 1.5rem;
+        gap: 2rem;
+        grid-row: 2 / 4;
+        grid-column: 1 / 2;
+    }
+
+    .card-content-writing h1 {
+        text-align: start;
+        font-size: 3rem;
+        letter-spacing: -2.5px;
+    }
+
+    .card-content-writing img {
+        width: 105%;
+    }
+}
+
+@media (min-width: 1400px) {
+    main {
+        padding-inline: 4.5rem;
+    }
+
+    .card-social-media h1 {
+        font-size: 5rem;
+    }
+}
+
+@media (min-width: 1600px) {
+    main {
+        padding-inline: 7rem;
+    }
+
+    .card-social-media h1 {
+        font-size: 5rem;
+    }
+}
