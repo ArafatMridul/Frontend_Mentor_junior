@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
+
+        <title>Frontend Mentor | Intro section with dropdown navigation</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+        <nav class="nav-bar">
+            <div class="logo">
+                <p>snap</p>
+            </div>
+            <div class="nav-links">
+                <div class="nav-options">
+                    <div class="features">
+                        <a href="#" id="features"
+                            >Features
+                            <img
+                                id="features-img"
+                                src="./images/icon-arrow-down.svg"
+                                alt=""
+                        /></a>
+                        <div class="drop-down">
+                            <ul>
+                                <li>
+                                    <img
+                                        src="./images/icon-todo.svg"
+                                        alt=""
+                                    />Todo List
+                                </li>
+                                <li>
+                                    <img
+                                        src="./images/icon-calendar.svg"
+                                        alt=""
+                                    />Calender
+                                </li>
+                                <li>
+                                    <img
+                                        src="./images/icon-reminders.svg"
+                                        alt=""
+                                    />Reminders
+                                </li>
+                                <li>
+                                    <img
+                                        src="./images/icon-planning.svg"
+                                        alt=""
+                                    />Planning
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="company">
+                        <a href="#" id="company"
+                            >Company
+                            <img
+                                id="company-img"
+                                src="./images/icon-arrow-down.svg"
+                                alt=""
+                        /></a>
+                        <div class="drop-down">
+                            <ul>
+                                <li>History</li>
+                                <li>Our Team</li>
+                                <li>Blog</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="#">Carrers</a>
+                    <a href="#">About</a>
+                </div>
+                <div class="nav-buttons">
+                    <a href="#">Login</a>
+                    <a href="#">Register</a>
+                </div>
+                <img id="cross" src="./images/icon-close-menu.svg" alt="" />
+            </div>
+            <img id="hamburger" src="./images/icon-menu.svg" alt="" />
+        </nav>
+
+        <div class="hero">
+            <div class="container">
+                <div class="description-container">
+                    <h1>Make remote work</h1>
+                    <p>
+                        Get your team in sync, no matter your location.
+                        Streamline processes, create team rituals, and
+                        watch productivity soar.
+                    </p>
+                    <button>Learn more</button>
+                    <div class="add-section">
+                        <img src="./images/client-databiz.svg" alt="" />
+                        <img src="./images/client-audiophile.svg" alt="" />
+                        <img src="./images/client-meet.svg" alt="" />
+                        <img src="./images/client-maker.svg" alt="" />
+                    </div>
+                </div>
+                <div class="img-container">
+                    <picture>
+                        <source
+                            media="(max-width: 928px)"
+                            srcset="./images/image-hero-mobile.png"
+                        />
+                        <img src="./images/image-hero-desktop.png" alt="" />
+                    </picture>
+                </div>
+            </div>
+        </div>
+        <div class="overlay"></div>
+    </body>
+</html>
